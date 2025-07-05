@@ -1,0 +1,143 @@
+body 
+{
+  font-family: 'Arial', sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #ffe5ec;
+  color: #6d6875;
+}
+
+
+.brand-header 
+{
+  background: linear-gradient(to right, #fd80b6, #faf171);
+  padding:1.5rem;
+  color: white;
+}
+
+.brand-container 
+{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 1rem;
+  flex-wrap:wrap;
+  text-align: left;
+}
+
+.logo 
+{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit:cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.brand-text h1 
+{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.brand-text p 
+{
+  margin: 0.2rem 0 0;
+  font-size: 1.1rem;
+}
+
+
+nav 
+{
+  background-color: #fff0f6;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+nav ul 
+{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  list-style: none;
+  margin:0;
+  padding: 1rem 0;
+}
+
+nav ul li
+{
+  margin:0 1rem;
+}
+
+nav ul li a 
+{
+  text-decoration: none;
+  font-weight:bold;
+  color: #ff85a2;
+  background-color: #fff6fa;
+  padding:0.5rem 1rem;
+  border-radius: 10px;
+  }
+
+nav ul li a:hover 
+{
+  background-color: #ff85a2;
+  color:white;
+}
+
+.gallery-container img 
+{
+  width:290px; 
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius:10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.gallery-container img:hover 
+{
+  transform:scale(1.02);
+}
+
+.featured-container img 
+{
+  width: 290px;
+  aspect-ratio: 4 / 3;
+  object-fit:cover;
+  border-radius: 12px;
+  box-shadow:0 6px 10px rgba(0,0,0,0.1);
+ }
+
+.featured-container img:hover 
+{
+  transform:scale(1.02);
+ }
+
+section
+ {
+  padding: 2rem;
+  max-width:900px;
+  margin: 2rem auto;
+  background-color: rgb(251, 244, 246);
+  border-radius:8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+h2 
+{
+  color: #ff85a2;
+  text-align:center;
+  margin-bottom: 1rem;
+}
+
+ul 
+{
+  padding-left:2rem;
+  line-height: 1.6;
+}
+
+footer 
+{
+  background:linear-gradient(to right,#fd80b6,#faf171);
+  text-align:center;
+  padding: 1rem;
+  color: white;
+ }
